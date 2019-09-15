@@ -12,7 +12,7 @@
     "start": "rm -rf .cache && parcel start src/index.html --no-autoinstall -p 1234"
   },
   "dependencies": {
-    "dnb-ui-lib": "*",
+    "dnb-ui-lib": "^4.15.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "core-js": "^2"

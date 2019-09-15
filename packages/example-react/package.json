@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "css-vars-ponyfill": "^2.0.2",
-    "dnb-ui-lib": "*",
+    "dnb-ui-lib": "^4.15.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },

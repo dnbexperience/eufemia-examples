@@ -1,5 +1,5 @@
 {
-  "extends": "../../dnb-design-system-portal/.eslintrc",
+  "extends": "../../.eslintrc",
   "plugins": ["vue", "jsx-a11y", "security"],
   "settings": {
     "react": {

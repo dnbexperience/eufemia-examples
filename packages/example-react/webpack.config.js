@@ -34,7 +34,7 @@ module.exports = {
                   importFrom: [
                     path.resolve(
                       __dirname,
-                      '../../dnb-ui-lib/style/dnb-ui-core.min.css'
+                      '../../node_modules/dnb-ui-lib/style/dnb-ui-core.min.css'
                     )
                   ]
                 })
