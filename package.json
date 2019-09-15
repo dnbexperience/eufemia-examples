@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "eufemia-examples",
+  "description": "DNB Design System - Examples",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "author": "DNB Team & Tobias Høegh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnbexperience/eufemia-eufemia.git"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "./packages/dnb-ui-lib/index.js",
+  "scripts": {
+    "reset": "rm -rf ./node_modules && yarn install"
+  },
+  "engines": {
+    "node": ">=10.6.0",
+    "yarn": ">=1.7.0"
+  },
+  "volta": {
+    "node": "10.6.0",
+    "yarn": "1.17.3"
+  }
+}
