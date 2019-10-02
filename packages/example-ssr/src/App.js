@@ -7,10 +7,19 @@ import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import { PrerenderedComponent } from 'react-prerendered-component'
 
-// With this we get 100kb more in bundle size
-import { Button, Input, Icon, Section } from 'dnb-ui-lib/components'
-import { H1, H2, P } from 'dnb-ui-lib/elements'
-import { bell_medium as Bell } from 'dnb-ui-lib/icons'
+// import { Button, Input, Icon, Section } from 'dnb-ui-lib/components'
+import Button from 'dnb-ui-lib/components/Button'
+import Input from 'dnb-ui-lib/components/Input'
+import Icon from 'dnb-ui-lib/components/Icon'
+import Section from 'dnb-ui-lib/components/Section'
+
+// import { H1, H2, P } from 'dnb-ui-lib/elements'
+import H1 from 'dnb-ui-lib/elements/H1'
+import H2 from 'dnb-ui-lib/elements/H2'
+import P from 'dnb-ui-lib/elements/P'
+
+// import { bell_medium as Bell } from 'dnb-ui-lib/icons'
+import Bell from 'dnb-ui-lib/icons/bell_medium'
 
 export default class App extends PureComponent {
   static propTypes = {

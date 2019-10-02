@@ -3,9 +3,11 @@
  *
  */
 
+import 'core-js/stable'
+
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App.jsx'
+import App from './App.js'
 import { PrerenderedControler } from 'react-prerendered-component'
 
 // Custom Eufemia import, instead of effecting the body reset with 'dnb-ui-lib/style'

@@ -5,10 +5,10 @@ module.exports = {
       {
         debug: false,
         targets: {
-          browsers: ['last 1 versions']
+          browsers: ['last 2 versions', 'explorer >= 11']
         },
-        useBuiltIns: 'usage',
-        corejs: 2
+        useBuiltIns: 'entry',
+        corejs: 3
       }
     ],
     '@babel/preset-react'

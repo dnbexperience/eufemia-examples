@@ -8,8 +8,7 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "start": "live-server static --watch --no-browser --cors --port=8080",
-    "umd": "live-server static/umd --watch --no-browser --cors --port=8080"
+    "start": "live-server static --watch --no-browser --cors --port=8080"
   },
   "dependencies": {},
   "devDependencies": {

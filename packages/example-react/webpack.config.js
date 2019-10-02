@@ -3,7 +3,6 @@ const postcssPresetEnv = require('postcss-preset-env')
 const path = require('path')
 
 module.exports = {
-  mode: 'development',
   module: {
     rules: [
       {
@@ -34,7 +33,11 @@ module.exports = {
                   importFrom: [
                     path.resolve(
                       __dirname,
-                      '../../node_modules/dnb-ui-lib/style/dnb-ui-core.min.css'
+                      '../../node_modules/dnb-ui-lib/style/dnb-ui-properties.css'
+                    ),
+                    path.resolve(
+                      __dirname,
+                      '../../node_modules/dnb-ui-lib/style/dnb-ui-components.css'
                     )
                   ]
                 })
@@ -55,6 +58,7 @@ module.exports = {
       filename: 'bundle.css'
     })
   ],
+  devtool: 'source-map',
   optimization: {
     usedExports: true,
     minimize: true,

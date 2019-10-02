@@ -1,6 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 module.exports = {
-  mode: 'development',
   module: {
     rules: [
       {
@@ -32,6 +31,7 @@ module.exports = {
       filename: 'bundle.css'
     })
   ],
+  devtool: 'source-map',
   optimization: {
     usedExports: true,
     minimize: true,

@@ -7,9 +7,18 @@ import React, { PureComponent, Suspense } from 'react'
 import styled from '@emotion/styled'
 
 // 1. Import Components and Elements
-import { Button, Icon } from 'dnb-ui-lib/components'
-import { H2, H4, P, Code } from 'dnb-ui-lib/elements'
-import { bell } from 'dnb-ui-lib/icons'
+// import { Button, Icon } from 'dnb-ui-lib/components'
+import Button from 'dnb-ui-lib/components/Button'
+import Icon from 'dnb-ui-lib/components/Icon'
+
+// import { H2, H4, P, Code } from 'dnb-ui-lib/elements'
+import H2 from 'dnb-ui-lib/elements/H2'
+import H4 from 'dnb-ui-lib/elements/H4'
+import P from 'dnb-ui-lib/elements/P'
+import Code from 'dnb-ui-lib/elements/Code'
+
+// import { bell } from 'dnb-ui-lib/icons'
+import bell from 'dnb-ui-lib/icons/bell'
 
 // 2. We dont import this, as we will have controll
 // import 'dnb-ui-lib/style/elements'

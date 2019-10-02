@@ -8,7 +8,7 @@ import React from 'react'
 import path from 'path'
 import fs from 'fs'
 
-import App from '../src/App.jsx'
+import App from '../src/App.js'
 import {
   PrerenderedControler,
   thisIsServer
@@ -18,10 +18,13 @@ import { renderToString } from 'react-dom/server'
 GenerateHtmlFile(App, '../index.html')
 
 function GenerateHtmlFile(Component, file) {
+  // optional mock
   global.document = { getElementById: () => {} }
+
+  // setting config
   thisIsServer(false)
 
-  const html = `
+  const html = /* @jsx */ `
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,7 +34,7 @@ function GenerateHtmlFile(Component, file) {
   <body>
     <div id="app">${renderToString(
       <PrerenderedControler isServer>
-        <Component count={12} />
+        <Component count={Math.random()} />
       </PrerenderedControler>
     )}</div>
     <script src="./main.js"></script>
