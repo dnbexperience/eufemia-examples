@@ -5,17 +5,29 @@
 
 import React from 'react'
 import { render } from 'react-dom'
-import App from './App'
+import App from './App.jsx'
 
-// 2. My App styles
+// 1. My App styles
 import './App.css'
 
-// 3. Custom Eufemia import
+// 2. Custom Eufemia import
 import 'dnb-ui-lib/style/basis'
 import 'dnb-ui-lib/style/components'
+// import 'dnb-ui-lib/style/elements'
 import 'dnb-ui-lib/style/themes/ui'
 
-// 4. We dont import this, as we will have controll
-// import 'dnb-ui-lib/style'; // Import the global DNB stylesheet
+// 3. Use the stylis Plugin for IE 11 polyfill
+import { CacheProvider } from '@emotion/core'
+import createEmotionCache from '@emotion/cache'
+import stylisPlugin from 'dnb-ui-lib/style/stylis'
 
-render(<App />, document.getElementById('app'))
+const emotionCache = createEmotionCache({
+  stylisPlugins: [stylisPlugin]
+})
+
+render(
+  <CacheProvider value={emotionCache}>
+    <App />
+  </CacheProvider>,
+  document.getElementById('app')
+)

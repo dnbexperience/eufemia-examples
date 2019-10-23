@@ -16,17 +16,12 @@ import './App.css'
 import App from './App.jsx'
 
 // 3. Use the stylis Plugin for IE 11 polyfill
-import { CacheProvider } from '@emotion/core'
-import createEmotionCache from '@emotion/cache'
+import { StyleSheetManager } from 'styled-components'
 import stylisPlugin from 'dnb-ui-lib/style/stylis'
 
-const emotionCache = createEmotionCache({
-  stylisPlugins: [stylisPlugin]
-})
-
 render(
-  <CacheProvider value={emotionCache}>
+  <StyleSheetManager stylisPlugins={[stylisPlugin]}>
     <App />
-  </CacheProvider>,
+  </StyleSheetManager>,
   document.getElementById('app')
 )

@@ -11,6 +11,7 @@ module.exports = {
     ],
     '@babel/preset-react'
   ],
+  sourceMaps: true,
   ignore: ['node_modules/**'],
   plugins: ['@babel/plugin-proposal-class-properties']
 }

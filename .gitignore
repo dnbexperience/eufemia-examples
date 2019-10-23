@@ -4,6 +4,7 @@
 # misc
 package-lock.json
 .DS_Store
+.parcel-cache/
 .history
 *not_in_use*
 

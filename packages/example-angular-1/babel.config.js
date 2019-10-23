@@ -11,7 +11,8 @@ module.exports = {
     ],
     '@babel/preset-react'
   ],
-  // sourceType: 'unambiguous', // we need to set this, once we define: "useBuiltIns: 'usage'"
+  // If we have a source as CJS then we need to have source set to unambiguous
+  sourceType: 'unambiguous',
   ignore: ['node_modules/**'],
   plugins: ['@babel/plugin-proposal-class-properties']
 }

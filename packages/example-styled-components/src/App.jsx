@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react'
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 
 import { Button, Input, Icon, Section } from 'dnb-ui-lib/components'
 import { H1, H2, P } from 'dnb-ui-lib/elements'

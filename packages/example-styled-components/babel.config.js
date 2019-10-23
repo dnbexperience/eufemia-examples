@@ -3,16 +3,18 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        debug: false,
         targets: {
           browsers: ['last 2 versions', 'explorer >= 11']
-        }
+        },
+        // useBuiltIns: 'usage',
+        // corejs: 3,
+        debug: false
       }
     ],
-    'vue'
+    '@babel/preset-react'
   ],
   // If we have a source as CJS then we need to have source set to unambiguous
-  sourceType: 'unambiguous',
+  // sourceType: 'unambiguous',
   ignore: ['node_modules/**'],
   plugins: ['@babel/plugin-proposal-class-properties']
 }

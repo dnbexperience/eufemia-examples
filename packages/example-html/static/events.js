@@ -14,6 +14,9 @@ MyClass.prototype.dropdown_change = function(e) {
 MyClass.prototype.value_change = function(e) {
   console.log('value_change', e.value);
 };
+MyClass.prototype.on_submit = function(e) {
+  console.log('on_submit', e);
+};
 window.myClass = new MyClass(); // same as var myClass = new MyClass()
 
 // 2. The imperative way of to set and handle events

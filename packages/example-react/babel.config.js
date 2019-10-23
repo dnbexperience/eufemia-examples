@@ -3,17 +3,18 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        debug: false,
         targets: {
           browsers: ['last 2 versions', 'explorer >= 11']
         },
-        useBuiltIns: 'usage',
-        corejs: 3
+        // useBuiltIns: 'usage',
+        // corejs: 3,
+        debug: false
       }
     ],
     '@babel/preset-react'
   ],
-  sourceType: 'unambiguous', // we need to set this, once we define: "useBuiltIns: 'usage'"
+  // If we have a source as CJS then we need to have source set to unambiguous
+  // sourceType: 'unambiguous',
   ignore: ['node_modules/**'],
   plugins: ['emotion', '@babel/plugin-proposal-class-properties']
 }

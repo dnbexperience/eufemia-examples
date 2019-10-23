@@ -5,25 +5,12 @@
 
 import React, { PureComponent } from 'react'
 
-// different mothodes of importing the dnb-ui-lib
-// import dnb from 'dnb-ui-lib/components/web-components'
-import dnb, {
-  Button,
-  Input,
-  Icon
-} from 'dnb-ui-lib/components/web-components'
-// import Button from 'dnb-ui-lib/components/button/web-component'
-// import Input from 'dnb-ui-lib/components/input/web-component'
-// import Icon from 'dnb-ui-lib/components/icon/web-component'
-// import Button from 'dnb-ui-lib/components/Button'
-// import Input from 'dnb-ui-lib/components/Input'
-// import Icon from 'dnb-ui-lib/components/Icon'
-// import { H1, H2, P } from 'dnb-ui-lib/elements'
-import H1 from 'dnb-ui-lib/elements/H1'
-import H2 from 'dnb-ui-lib/elements/H2'
-import P from 'dnb-ui-lib/elements/P'
-// import { bell_medium as Bell } from 'dnb-ui-lib/icons'
-import Bell from 'dnb-ui-lib/icons/bell_medium'
+import Button from 'dnb-ui-lib/components/button/web-component'
+import Input from 'dnb-ui-lib/components/input/web-component'
+import Icon from 'dnb-ui-lib/components/icon/web-component'
+
+import { H1, H2, P } from 'dnb-ui-lib/elements'
+import { bell_medium as Bell } from 'dnb-ui-lib/icons'
 
 // to enable Web Components, cause we use both react and Web Components in here
 
@@ -44,11 +31,6 @@ export default class App extends PureComponent {
   }
   handleWebComponentsVisibility() {
     this.setState({ showWebComponents: true })
-    dnb.enableWebComponents()
-
-    // there are different ways to enable usage of WebComponents
-    // Button.enableWebComponents()
-    // Icon.enableWebComponents()
 
     // bind the imperative (not declarative) event handlers
     this._inputRef.current.addEvent('on_change', this.handleValueChange)
