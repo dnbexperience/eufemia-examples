@@ -15,7 +15,7 @@ import 'dnb-ui-lib/style/themes/ui'
 import Emotion from './measures/Emotion'
 import StyledComponents from './measures/StyledComponents'
 
-const howMenyToRehnder = 10
+const howMenyToRehnder = 100
 
 const stack = [
   {
