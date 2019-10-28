@@ -1568,7 +1568,7 @@ babel-plugin-macros@^2.0.0:
     cosmiconfig "^5.2.0"
     resolve "^1.10.0"
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.10.6:
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.10.6.tgz#f8782953751115faf09a9f92431436912c34006b"
   integrity sha512-gyQj/Zf1kQti66100PhrCRjI5ldjaze9O0M3emXRPAN80Zsf8+e1thpTpaXJXVHXtaM4/+dJEgZHyS9Its+8SA==
@@ -3005,6 +3005,20 @@ dnb-ui-lib@^5.0.0-beta.1:
   version "5.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-5.0.0-beta.1.tgz#e3368808c2dd6c5954dd4af6e5ddfaeb8cadec3c"
   integrity sha512-2Mr4vswR8Dsb01yDBILo9vsm8oAwp3STFQEE0ZklNdJscZ1Lr6ikPmZDa/vdZKSFGC89zWsnejVQaZVIxS+zDg==
+  dependencies:
+    "@babel/runtime" "^7.6.3"
+    body-scroll-lock "^2.6.4"
+    classnames "^2.2.6"
+    core-js "^2"
+    date-fns "^2.6.0"
+    keycode "^2.2.0"
+    react-text-mask "^5.4.3"
+    what-input "^5.2.6"
+
+dnb-ui-lib@^5.0.0-beta.3:
+  version "5.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-5.0.0-beta.3.tgz#22d5e6f9b3886650debb0c9a6922b7dae91da38a"
+  integrity sha512-Q4+mFeAt8kHl13AYT3inTZd2xLETEjxHXmyyybbggnyz46GV48j1ju01E7pm9UPAaMx8Zxfr8Aiavr7py+nQQQ==
   dependencies:
     "@babel/runtime" "^7.6.3"
     body-scroll-lock "^2.6.4"
