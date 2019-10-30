@@ -9,9 +9,5 @@
   "version": "1.0.0",
   "scripts": {
     "start": "live-server static --watch --no-browser --cors --port=8080"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "live-server": "^1.2.1"
   }
 }

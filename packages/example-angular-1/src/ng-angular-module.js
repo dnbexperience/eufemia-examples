@@ -9,7 +9,8 @@ import ReactComponent from './ReactComponent.jsx'
 import { react2angular } from 'react2angular'
 
 import { bell_medium as Bell } from 'dnb-ui-lib/icons'
-import { Icon } from 'dnb-ui-lib'
+import properties from 'dnb-ui-lib/style/properties'
+import { Icon } from 'dnb-ui-lib/components'
 
 const ngUIModule = angular.module('uiModule', [])
 
@@ -35,7 +36,10 @@ ngUIModule.directive('uiDirective', () => {
       $scope.icon = Bell
       /** To show the flexibility */
       $scope.iconJsx = () => (
-        <Icon icon={<Bell color="#e10076" />} size="medium" />
+        <Icon
+          icon={<Bell color={properties['--color-sky-blue']} />}
+          size="medium"
+        />
       )
       $scope.message = 'Input value'
       $scope.onReactMessageChange = ({ value: message }) => {

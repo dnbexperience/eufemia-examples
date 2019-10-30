@@ -8,35 +8,13 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "generate": "nodemon --exec 'babel-node ./scripts/generator.js' --ext js,json,jsx",
-    "dev": "nodemon --exec 'yarn build' --ext js,jsx,html,json,css,scss --ignore 'dist/*' --ignore 'index.html'",
+    "generate": "nodemon --exec 'babel-node NODE_OPTIONS=--experimental-modules ./scripts/generator.js' --ext js,json,jsx",
+    "dev": "nodemon --exec 'yarn build && yarn live' --ext js,jsx,html,json,css,scss --ignore 'dist/*' --ignore 'index.html'",
+    "live": "live-server dist --watch --no-browser --cors --port=1234",
     "start": "babel-node ./scripts/generator.js && webpack-dev-server --port=1234",
     "build": "babel-node ./scripts/generator.js && webpack --mode=production --display-modules && cp index.html dist/index.html && cp src/favicon.ico dist/favicon.ico"
   },
-  "dependencies": {
-    "core-js": "^2",
-    "dnb-ui-lib": "^5.0.0-beta.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
-  },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/node": "^7.6.3",
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.6.3",
-    "@babel/preset-react": "^7.6.3",
-    "babel-loader": "8.0.6",
-    "css-loader": "^3.2.0",
-    "file-loader": "^4.2.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.12.0",
-    "nodemon": "^1.19.4",
-    "prop-types": "^15.7.2",
-    "react-prerendered-component": "^1.2.2",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.0",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.9",
-    "webpack-dev-server": "^3.9.0"
+    "react-prerendered-component": "^1.2.2"
   }
 }
