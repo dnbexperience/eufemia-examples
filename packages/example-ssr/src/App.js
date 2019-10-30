@@ -50,9 +50,11 @@ export default class App extends PureComponent {
               functionality of the dnb-ui-lib/cjs
             </P>
             <Input
+              label="Input:"
               placeholder="Type someting ..."
               value={inputValue}
               on_change={this.handleValueChange}
+              right
             />
             <Button
               text="Custom Element with icon"

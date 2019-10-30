@@ -46,9 +46,11 @@ export default class App extends PureComponent {
         <div className="dnb-core-style dnb-spacing dnb-section dnb-section--spacing">
           <H1>React Components</H1>
           <Input
+            label="Input:"
             placeholder="Type someting ..."
             value={inputValue}
             on_change={this.handleValueChange}
+            right
           />
           <Button
             text="Custom Element with icon"

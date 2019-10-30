@@ -39,6 +39,7 @@ class ReactComponent extends Component {
           placeholder="Type someting ..."
           value={message}
           on_change={onMessageChange}
+          right
         />
         <Button
           text="Button with Icon"

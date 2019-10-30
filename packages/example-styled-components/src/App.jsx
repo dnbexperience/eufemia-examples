@@ -31,9 +31,11 @@ export default function App() {
           functionality of the dnb-ui-lib
         </P>
         <Input
+          label="Input:"
           placeholder="Type someting ..."
           value={value}
           on_change={handleValueChange}
+          right
         />
         <Button
           text="Custom Element with icon"
