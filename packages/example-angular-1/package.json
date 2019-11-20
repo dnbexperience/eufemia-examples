@@ -12,7 +12,7 @@
     "build": "webpack --mode=production --display-modules && cp index.html dist/index.html"
   },
   "dependencies": {
-    "angular": "1.7.8",
+    "angular": "1.7.9",
     "react2angular": "4.0.6"
   },
   "devDependencies": {
