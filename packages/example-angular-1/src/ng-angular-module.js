@@ -54,7 +54,7 @@ ngUIModule.directive('uiDirective', () => {
     template: /* @html */ `
 <div>
   <div class="dnb-section dnb-section--spacing">
-    <h2 class="dnb-h2">Angular v1.7.8</h2>
+    <h2 class="dnb-h2">Angular v1</h2>
     <p class="dnb-p">(no Eufemia CSS Styles)</p>
     <input type="text" ng-model="message" />
   </div>
