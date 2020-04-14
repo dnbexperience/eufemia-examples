@@ -14,7 +14,7 @@
     "start": "parcel start src/index.html --no-autoinstall -p 1234"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
+    "@babel/core": "^7.9.0",
     "parcel": "^1.12.4"
   },
   "browserslist": {

@@ -16,6 +16,6 @@
     "react2angular": "4.0.6"
   },
   "devDependencies": {
-    "@types/angular": "1.6.56"
+    "@types/angular": "1.7.0"
   }
 }
