@@ -13,6 +13,6 @@
     "build": "webpack --mode=production --display-modules && cp index.html dist/index.html && cp src/favicon.ico dist/favicon.ico"
   },
   "dependencies": {
-    "styled-components": "^5.0.0-beta.11"
+    "styled-components": "^5.1.0"
   }
 }

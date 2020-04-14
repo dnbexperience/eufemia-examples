@@ -1,0 +1,21 @@
+{
+  "name": "example-esm-bundle",
+  "description": "Vanilla HTML ESM Bundle example",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnbexperience/eufemia-examples.git"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "start": "live-server static --watch --no-browser --cors --port=8080"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "8.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.1.0"
+  }
+}

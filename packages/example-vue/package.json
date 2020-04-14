@@ -12,16 +12,16 @@
     "build": "webpack --mode=production --display-modules"
   },
   "dependencies": {
-    "vue": "^2.6.10",
-    "vuera": "^0.2.6"
+    "vue": "^2.6.11",
+    "vuera": "^0.2.7"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.0.0",
+    "@vue/component-compiler-utils": "^3.1.2",
     "babel-preset-vue": "^2.0.2",
-    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^6.2.2",
     "vue-hot-reload-api": "^2.3.3",
-    "vue-loader": "^15.7.0",
+    "vue-loader": "^15.9.1",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11"
   }
 }
