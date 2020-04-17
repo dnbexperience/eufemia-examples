@@ -2,11 +2,11 @@
 
 This example uses [live-server](https://www.npmjs.com/package/live-server) to start a local server with live reload, serving the static files. But the **index.html** can also be opened without any server as well as long as the package `dnb-ui-lib` is setup correctly.
 
-# Dependencies
+## Dependencies
 
 To run the ui-lib [React and React-Dom](https://cdnjs.com/libraries/react) is required as an external dependency. Have a look at the **index.html** file.
 
-# Start the live-server
+## Start the live-server
 
 To run the HTML page, You have to run a `live-server`.
 
