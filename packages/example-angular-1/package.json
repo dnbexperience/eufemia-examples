@@ -9,13 +9,17 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack-dev-server --port=1234",
-    "build": "webpack --mode=production --display-modules && cp index.html dist/index.html"
+    "build": "webpack --mode=production --display-modules && cp index.html dist/index.html",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "angular": "1.7.9",
-    "react2angular": "4.0.6"
+    "react2angular": "4.0.6",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/angular": "1.7.0"
-  }
+  },
+  "snyk": true
 }
