@@ -22,7 +22,6 @@ const MainLayoyt = ({ children }) => (
   <div className="dnb-core-style">
     <Head>
       <title>Home</title>
-      <link rel="icon" href="/favicon.ico" />
     </Head>
 
     {children}

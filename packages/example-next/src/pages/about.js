@@ -13,7 +13,6 @@ const About = () => (
   <Page>
     <Head>
       <title>About</title>
-      <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <Nav />
