@@ -48,9 +48,9 @@ const Legacy = () => {
         Legacy {`<h1>`} <Icon icon={bell} size="auto" />
       </h1>
 
-      <h4 className="dnb-h4">
-        I have a Eufemia Style (<code>.dnb-h4</code>) without a correct CSS
-        reset. I don't have the correct hight!
+      <h4 className="dnb-h--basis">
+        I have a Eufemia Style (<code>.dnb-h--basis</code>) without a
+        correct CSS reset. I don't have the correct hight!
       </h4>
 
       <Button text="Crying Button 😢" />
@@ -122,7 +122,7 @@ const LegacyCodeExample = styled.article`
 const CoreStyleExample = styled.article`
   margin: 0;
   padding: 3rem 2rem 4rem;
-  background-color: var(--color-sea-green-alt-30);
+  background-color: var(--color-sea-green-30);
   code:first-of-type,
   code:last-of-type {
     margin-bottom: 1rem;

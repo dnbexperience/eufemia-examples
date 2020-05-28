@@ -6,13 +6,13 @@
 
 import { matchAll } from 'dnb-ui-lib/shared/component-helper'
 import properties from 'dnb-ui-lib/style/properties'
-import { isIE11 } from 'dnb-ui-lib/shared/helpers'
+import { IS_IE11 } from 'dnb-ui-lib/shared/helpers'
 
 const findRegExp = /var\(([^)]*)\)/g
 
 const stylisPlugin = (context, content, props = null) => {
   // Only use the property context
-  if (context !== 1 || (props === null && !isIE11)) {
+  if (context !== 1 || (props === null && !IS_IE11)) {
     return false
   }
   performance.mark('matchAll evaluation-Start')

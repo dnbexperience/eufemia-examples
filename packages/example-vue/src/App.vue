@@ -3,7 +3,7 @@
     <div
       class="dnb-core-style dnb-spacing dnb-section dnb-section--spacing"
     >
-      <h1 class="dnb-h1">{{ header }}</h1>
+      <h1 class="dnb-h--xx-large">{{ header }}</h1>
       <dnb-button
         text="DNB Button with Icon"
         icon="add"
