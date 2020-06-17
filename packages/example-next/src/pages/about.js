@@ -9,6 +9,8 @@ import Head from 'next/head'
 import Page from '../layouts/Main'
 import Nav from '../components/Nav'
 
+import { Heading } from 'dnb-ui-lib/components'
+
 const About = () => (
   <Page>
     <Head>
@@ -17,7 +19,9 @@ const About = () => (
 
     <Nav />
 
-    <div className="hero">About</div>
+    <Heading reset={1} className="hero">
+      About
+    </Heading>
 
     <style jsx>{`
       /* More styles? */
