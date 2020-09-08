@@ -5,12 +5,12 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Anchor } from 'dnb-ui-lib/cjs/elements/index.cjs'
+import { Anchor } from 'dnb-ui-lib/cjs/elements'
 
 const links = [
   { href: 'https://eufemia.dnb.no/uilib/', label: 'Docs' },
   { href: 'https://github.com/dnbexperience/eufemia/', label: 'GitHub' }
-].map((link) => {
+].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
 })

@@ -9,7 +9,7 @@ import Head from 'next/head'
 import Page from '../layouts/Main'
 import Nav from '../components/Nav'
 
-import { Heading } from 'dnb-ui-lib/cjs/components/index.cjs'
+import { Heading } from 'dnb-ui-lib/cjs/components'
 
 const About = () => (
   <Page>

@@ -2798,13 +2798,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2":
-  version "7.10.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
-  integrity sha512-6sF3uQw2ivImfVIl62RZ7MXhO2tap69WeWK57vAaimT6AZbE4FbqjdEJIN1UqoD6wI6B+1n9UiagafH1sxjOtg==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/runtime@^7.11.2":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
@@ -5879,11 +5872,6 @@ data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
-date-fns@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.14.0.tgz#359a87a265bb34ef2e38f93ecf63ac453f9bc7ba"
-  integrity sha512-1zD+68jhFgDIM0rF05rcwYO8cExdNqxjq4xP1QKM60Q45mnO6zaMWB4tOzrIr4M4GSLntsKeE4c9Bdl2jhL/yw==
-
 date-fns@^2.15.0:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.15.0.tgz#424de6b3778e4e69d3ff27046ec136af58ae5d5f"
@@ -6102,28 +6090,15 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dnb-ui-lib@^7.1.12:
-  version "7.1.12"
-  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-7.1.12.tgz#8bd1fec37539129302f3f670f523ce5ba13ac00f"
-  integrity sha512-1FC7K/NEIRSYdAfJH2/3tKZhJxDnWIjXkUXbprpRNYpIUWtNNfLMppqCzhZVy2RsMqOIQ8P7J+CGeAqzSZb9fQ==
+dnb-ui-lib@^7.1.15:
+  version "7.1.15"
+  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-7.1.15.tgz#01cb233541995fd4c260285554722efcec0d3d65"
+  integrity sha512-lDixV2IVsRjDY1QDRp+tYtT8xHTzbBocJ08k+Tyx64NjXZXMAn7GhR8Ume346gUifBsADNqLgy5iMYPcZ2nmDA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "^2.2.6"
     core-js "^2"
     date-fns "^2.15.0"
-    keycode "^2.2.0"
-    react-text-mask "^5.4.3"
-    what-input "^5.2.10"
-
-dnb-ui-lib@^7.1.3:
-  version "7.1.3"
-  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-7.1.3.tgz#2584ab2b7fb931905bab45380835540aed4cf130"
-  integrity sha512-QsfQ7vt1PjwAT4gdyEZ+malfJblze4o7rU0yBZ9XN4ILALiU8OuQkbXLSVQCKyUWH4c8c4ssQtozMD6COUM0cg==
-  dependencies:
-    "@babel/runtime" "^7.10.2"
-    classnames "^2.2.6"
-    core-js "^2"
-    date-fns "^2.14.0"
     keycode "^2.2.0"
     react-text-mask "^5.4.3"
     what-input "^5.2.10"

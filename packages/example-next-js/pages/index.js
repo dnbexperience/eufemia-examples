@@ -10,22 +10,16 @@ import Head from 'next/head'
 import Page from '../layouts/Main'
 import Nav from '../components/Nav'
 
-import {
-  Heading,
-  Button,
-  Input,
-  Icon,
-  Section
-} from 'dnb-ui-lib/cjs/components/index.cjs'
-import { P } from 'dnb-ui-lib/cjs/elements/index.cjs'
-import { bell_medium as Bell } from 'dnb-ui-lib/cjs/icons/index.cjs'
+import { Heading, Button, Input, Icon, Section } from 'dnb-ui-lib/cjs'
+import { P } from 'dnb-ui-lib/cjs/elements'
+import { bell_medium as Bell } from 'dnb-ui-lib/cjs/icons'
 
 const Home = () => {
   const [value, setValue] = React.useState(null)
-  const handleClick = (e) => {
+  const handleClick = e => {
     console.log('handleClick', e)
   }
-  const handleValueChange = (e) => {
+  const handleValueChange = e => {
     const value = e.value || (e.detail && e.detail.value) || ''
     console.log('handleValueChange', value)
     setValue(value)
