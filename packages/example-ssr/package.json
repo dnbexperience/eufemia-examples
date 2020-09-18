@@ -8,7 +8,7 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "generate": "nodemon --exec 'babel-node NODE_OPTIONS=--experimental-modules ./scripts/generator.js' --ext js,json,jsx",
+    "generate": "nodemon --exec 'babel-node ./scripts/generator.js' --ext js,json,jsx",
     "dev": "nodemon --exec 'yarn build && yarn live' --ext js,jsx,html,json,css,scss --ignore 'dist/*' --ignore 'index.html'",
     "live": "live-server dist --watch --no-browser --cors --port=1234",
     "start": "babel-node ./scripts/generator.js && webpack-dev-server --port=1234",

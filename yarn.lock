@@ -6090,10 +6090,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dnb-ui-lib@^7.1.15:
-  version "7.1.15"
-  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-7.1.15.tgz#01cb233541995fd4c260285554722efcec0d3d65"
-  integrity sha512-lDixV2IVsRjDY1QDRp+tYtT8xHTzbBocJ08k+Tyx64NjXZXMAn7GhR8Ume346gUifBsADNqLgy5iMYPcZ2nmDA==
+dnb-ui-lib@^7.1.23:
+  version "7.1.23"
+  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-7.1.23.tgz#b93846be745a3f253c8b0dbc07e7a0afb956ee84"
+  integrity sha512-9ZJ3VJmzk+4pezgzxC8q6KCWt1C9OnbiL8JbWzA4IUfxqhhNWBn9iaZpPjLjzop+0I8NpfuVVTboIV5/H65rVA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     classnames "^2.2.6"
