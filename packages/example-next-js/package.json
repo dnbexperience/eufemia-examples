@@ -14,7 +14,7 @@
     "watch": "nodemon --exec 'yarn build' --ext js,jsx,html,json,css,scss --ignore 'dist/*'"
   },
   "dependencies": {
-    "next": "9.5.2",
+    "next": "9.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
